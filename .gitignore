@@ -1,0 +1,24 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.pem
+*.key
+*.tfvars
+!*.tfvars.example
+.aws/
+
+# SSH private keys
+**/terra-key-*
+**/id_rsa
+**/id_ed25519
+
+# Local console logs
+**/console-output.txt
+
+# SSH private keys
+**/terra-key-ec2
+**/id_rsa
+**/id_ed25519
